@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Suite">
+<test name="Test4">
+<parameter name="browser" value="Internet Explorer"/>
+<parameter name="version" value="11.0"/>
+<parameter name="platform" value="Windows 10"/>
+<classes>
+<class name="Scripts.Test1"/>
+<class name="Scripts.Test2"/>
+</classes>
+</test>
+<test name="Test2">
+<parameter name="browser" value="Internet Explorer"/>
+<parameter name="version" value="11.0"/>
+<parameter name="platform" value="Windows 10"/>
+<classes>
+<class name="Scripts.Test3"/>
+</classes>
+</test>
+</suite>
